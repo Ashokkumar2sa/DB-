@@ -28,6 +28,7 @@ function makeid(length) {
  return result;
 }
 (async () => {
+    for(var b = 1; b<100;b++){
 
     const browser = await playwright["chromium"].launch({
         headless: false
@@ -53,7 +54,7 @@ function makeid(length) {
     await page.click('text=Members');
     await page.click('text=New member');
     
-    for(var i =1;i<400;i++){
+    for(var i =1;i<40;i++){
       //await page.click('//html/body/div[2]/div[2]/div/form/div[1]/table/tbody[1]/tr[1]/td[2]/span/span[1]/span/span[2]');
       
       var x = "M"+ String(Math.floor(Math.random() * (100))+20);
@@ -224,4 +225,5 @@ function makeid(length) {
     // Click text=New member
     await page.click('text=New member');
   }
+    }
 })();
