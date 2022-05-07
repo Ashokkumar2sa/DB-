@@ -1,4 +1,4 @@
-CREATE TABLE llx_societe_commerciaux (
+CREATE TABLE societe_commerciaux (
   rowid int NOT NULL,
   fk_soc int DEFAULT NULL,
   fk_user int DEFAULT NULL,
