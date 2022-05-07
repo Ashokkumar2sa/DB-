@@ -1,4 +1,4 @@
-CREATE TABLE llx_c_stcomm (
+CREATE TABLE c_stcomm (
   id int NOT NULL,
   code varchar(12) NOT NULL,
   libelle varchar(30) DEFAULT NULL,
