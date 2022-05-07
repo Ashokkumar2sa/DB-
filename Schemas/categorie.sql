@@ -1,4 +1,4 @@
-CREATE TABLE llx_categorie (
+CREATE TABLE categorie (
   rowid int NOT NULL,
   entity int NOT NULL DEFAULT '1',
   fk_parent int NOT NULL DEFAULT '0',
