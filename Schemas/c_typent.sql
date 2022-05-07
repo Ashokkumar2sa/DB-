@@ -1,4 +1,4 @@
-CREATE TABLE llx_c_typent (
+CREATE TABLE c_typent (
   id int NOT NULL,
   code varchar(12) NOT NULL,
   libelle varchar(64) DEFAULT NULL,
