@@ -1,4 +1,4 @@
-CREATE TABLE llx_c_type_contact (
+CREATE TABLE c_type_contact (
   rowid int NOT NULL,
   element varchar(30) NOT NULL,
   source varchar(8) NOT NULL DEFAULT 'external',
