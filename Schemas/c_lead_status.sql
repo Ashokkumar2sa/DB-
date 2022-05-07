@@ -1,4 +1,4 @@
-CREATE TABLE llx_c_lead_status (
+CREATE TABLE c_lead_status (
   rowid int NOT NULL,
   code varchar(10) DEFAULT NULL,
   label varchar(50) DEFAULT NULL,
