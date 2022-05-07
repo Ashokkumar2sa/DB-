@@ -1,4 +1,4 @@
-CREATE TABLE llx_extrafields (
+CREATE TABLE extrafields (
   rowid int NOT NULL,
   name varchar(64) NOT NULL,
   entity int NOT NULL DEFAULT '1',
