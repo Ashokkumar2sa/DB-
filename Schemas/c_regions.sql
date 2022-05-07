@@ -9,5 +9,5 @@ CREATE TABLE c_regions (
   PRIMARY KEY (rowid),
   CONSTRAINT uk_code_region UNIQUE(code_region),
   CONSTRAINT idx_c_regions_fk_pays UNIQUE(fk_pays),
-  CONSTRAINT fk_c_regions_fk_pays FOREIGN KEY (fk_pays) REFERENCES trial_2.dbo.c_country (rowid)
+  CONSTRAINT fk_c_regions_fk_pays FOREIGN KEY (fk_pays) REFERENCES dbo.c_country (rowid)
 )
