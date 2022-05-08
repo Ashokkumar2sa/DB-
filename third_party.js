@@ -29,6 +29,7 @@ function makeid(length) {
  return result;
 }
 (async () => {
+  // thi number is suffix of party name let it be unique so update it when restart the script
   var o = 1073;
   for(var k=0;k<100;k++){
         const browser = await playwright["chromium"].launch({
